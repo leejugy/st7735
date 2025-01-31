@@ -172,11 +172,11 @@ static void st7735_thread()
         st7735_fill_all_screen(&rgb);
         sleep(1);
 
-        get_rgb_color(&rgb, ST7735_COLOR_BLUE);
+        get_rgb_color(&rgb, ST7735_COLOR_GREEN);
         st7735_fill_all_screen(&rgb);
         sleep(1);
 
-        get_rgb_color(&rgb, ST7735_COLOR_GREEN);
+        get_rgb_color(&rgb, ST7735_COLOR_BLUE);
         st7735_fill_all_screen(&rgb);
         sleep(1);
     }
