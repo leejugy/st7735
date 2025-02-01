@@ -155,4 +155,5 @@ int spi_full_duplex_read_write(SPI_INDEX data_index, void *tx_buffer, void *rx_b
     {
         perror("fail to spi full duplex");
     }
+    return ret;
 }
